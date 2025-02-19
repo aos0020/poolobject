@@ -31,7 +31,8 @@ jobs:
       run: mvn -B package --file pom.xml
 
     # Optional: Upload coverage report
-    - name: Check test coverage
-      uses: codecov/codecov-action@v4
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v5
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
+        slug: aos0020/poolobject
