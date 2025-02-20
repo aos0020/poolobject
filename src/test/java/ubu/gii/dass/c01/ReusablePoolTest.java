@@ -19,20 +19,21 @@ import org.junit.jupiter.api.Disabled;
  */
 public class ReusablePoolTest {
 
-	private ReusablePool pool;
+	private static ReusablePool pool;
 	
-	//@BeforeAll
-	@BeforeEach
+	@BeforeAll
+	//@BeforeEach
 	public static void setUp(){
 		//Obtenemos la instancia de Pool.
 		pool = ReusablePool.getInstance();
 	}
 
 	
-	//@AfterAll
-	@AfterEach
+	@AfterAll
+	//@AfterEach
 	public static void tearDown() throws Exception {
 		pool = null;
+
 	}
 
 	/**
