@@ -11,15 +11,23 @@ Authors:
 - Carlos Lopez Nozal
 - Jesus Alonso Abad
 
-¿Se ha realizado trabajo en equipo?
 
+Re
+
+¿Se ha realizado trabajo en equipo?
+	 Si....
+	
 
 ¿Tiene calidad el conjunto de pruebas disponibles?
-
+	Si....
 
 ¿Cuál es el esfuerzo invertido en realizar la actividad?
+	Quedada a traves de Teams...
+	
 
 ¿Cuál es el número de fallos encontrados en el código original?
+	.....
 
 
 ¿El proceso de integración continua realizado ha sido de calidad?
+	....
