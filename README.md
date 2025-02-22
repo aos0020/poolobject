@@ -10,6 +10,7 @@ Authors:
 - Ángel Ortiz de Lejarazu Sánchez : aos0020@alu.ubu.es
 - Carlos Lopez Nozal
 - Jesus Alonso Abad
+- Mario Marcilla Moreno : mmm1058@alu.ubu.es
 
 ## URL Proyecto
 ### Fork
