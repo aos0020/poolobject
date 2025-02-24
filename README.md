@@ -11,6 +11,7 @@ Authors:
 - Carlos Lopez Nozal
 - Jesus Alonso Abad
 - Mario Marcilla Moreno : mmm1058@alu.ubu.es
+- Jose Carlos Chico Mena : jcm1020@alu.ubu.es
 
 ## URL Proyecto
 ### Fork
