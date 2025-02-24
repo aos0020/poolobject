@@ -46,9 +46,35 @@ public class ReusablePoolTest {
         @DisplayName("testGetInstance")
         @Disabled("Not implemented yet")
 	public void testGetInstance() {
-        	
-       	
-		
+            // Obtenemos la primera instancia
+            ReusablePool instance1 = ReusablePool.getInstance();
+            assertNotNull(instance1, "La primera instancia no debería ser null");
+
+            // Obtenemos una segunda instancia
+            ReusablePool instance2 = ReusablePool.getInstance();
+            assertNotNull(instance2, "La segunda instancia no debería ser null");
+
+            // Verificamos que ambas instancias son la misma (patrón Singleton)
+            assertSame(instance1, instance2, "Ambas instancias deberían ser la misma (Singleton)");
+
+            // Verificamos que el pool tiene el tamaño correcto (2 en este caso)
+            try {
+                Reusable r1 = instance1.acquireReusable();
+                assertNotNull(r1, "Debería poder adquirir el primer objeto");
+
+                Reusable r2 = instance1.acquireReusable();
+                assertNotNull(r2, "Debería poder adquirir el segundo objeto");
+
+                // Intentar adquirir un tercer objeto debería lanzar una excepción
+                assertThrows(NotFreeInstanceException.class, () -> instance1.acquireReusable(),
+                             "Debería lanzar NotFreeInstanceException al intentar adquirir un tercer objeto");
+
+                // Liberamos los objetos para dejar el pool en su estado original
+                instance1.releaseReusable(r1);
+                instance1.releaseReusable(r2);
+            } catch (Exception e) {
+                fail("No deberían ocurrir excepciones durante la prueba de tamaño del pool: " + e.getMessage());
+            }		
 	}
 
 	/**
