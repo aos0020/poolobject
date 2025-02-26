@@ -50,34 +50,37 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 ## Preguntas
 
 ### 1. ¿Se ha realizado trabajo en equipo?
-	Si, aunque ha sido muy complicado coordinar reuniones entre los cuatro miembros del equipo. 
-	Hemos hecho sesions de trabajo por Teams, en las que alguna estabamos todos los componentes y en otra menos. 
-	Nos hemos repartido el trabajo por un grupo de Teams.
+	Si hemos trabajado en equipo, aunque ha sido muy complicado coordinar reuniones entre los cuatro miembros del equipo, ya que cada uno llevavamos un horario diferente, pero al final no hemos podido organizar. 
+	Hemos hecho reuniones de trabajo por Teams, en las que alguna estabamos todos los componentes y en otra no todos, pero siempre informabamos a todos de los cambio o de lo que ibamos a hacer. 
+	Nos hemos repartido el trabajo por un grupo creado en la plataforma Teams.
 	
 	->	Imagen kpi de GitHub en informe.
 	
 	
 
 ### 2. ¿Tiene calidad el conjunto de pruebas disponibles?
-	Según Codecov tenemos una cobertura de código del 100% sobre la libreria reusablePool.java
-	Podemos ver en la imagen clases que no estan probadas.
+	Según Codecov tenemos una cobertura de código del 100% sobre la clase reusablePool.java
+	Podemos ver en la imagen la valoración que nos da el propio Codecov.
 
  ![26Febre 1](https://github.com/user-attachments/assets/20d9e4ae-2daf-48ee-a6b7-8b0790a9aa87)
- 
-![26Febre 2](https://github.com/user-attachments/assets/5ae2599d-73ec-4e5e-99ef-f9821ed4e7de)
+ ![image](https://github.com/user-attachments/assets/c41579c7-6661-4852-872d-64a4e919c22d)
+
+
 
 	
 
 ### 3. ¿Cuál es el esfuerzo invertido en realizar la actividad?
 
-	Cada participante ha invertido en el estudio de los videos aportados por el profesor y ejecución de la práctica 
-	aproximadamente 4 h.
+	Cada componente del grupo a debido previamente dedicar tiempo a ver los videos aportados por el profesor y seguir los pasos para 
+	poder realizar práctica lo que más o menos podría a ser aproximadamente 4 h invertidas .
 	
 
 ### 4. ¿Cuál es el número de fallos encontrados en el código original?
 
-	En la clase ReusablePoolTest , objeto de esta práctica , no se han encontrado errores. Sin embargo en la clase Client.java 
-	podemos apreciar errores como vemos en jacoco.
+	En la clase ReusablePoolTest, que forma parte de esta práctica, no se han encontrado errores. Todas las pruebas unitarias se han ejecutado correctamente,
+        lo que indica que la funcionalidad relacionada con el pool de objetos reutilizables está bien implementada y cumple con las expectativas.
+
+	Sin embargo, al analizar la cobertura de código con Jacoco, hemos detectado que en la clase Client.java existen errores o fragmentos de código que no están siendo cubiertos adecuadamente por las pruebas. 
  
 ![image](https://github.com/user-attachments/assets/e9760df0-9c75-4c3f-b03f-8cd7715300c0)
 
