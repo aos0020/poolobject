@@ -59,7 +59,7 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 	
 
 ### 2. ¿Tiene calidad el conjunto de pruebas disponibles?
-	Según Codecov tenemos una cobertura de código igual al 100% sobre la libreria reusablePool.java
+	Según Codecov tenemos una cobertura de código del 100% sobre la libreria reusablePool.java
 	Podemos ver en la imagen clases que no estan probadas.
 
  ![26Febre 1](https://github.com/user-attachments/assets/20d9e4ae-2daf-48ee-a6b7-8b0790a9aa87)
@@ -69,6 +69,7 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 	
 
 ### 3. ¿Cuál es el esfuerzo invertido en realizar la actividad?
+
 	Cada participante ha invertido en el estudio de los videos aportados por el profesor y ejecución de la práctica 
 	aproximadamente 4 h.
 	
@@ -82,4 +83,9 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 
 
 ### 5. ¿El proceso de integración continua realizado ha sido de calidad?
+
+	Tras analizar el proceso de integración continua realizado, podemos concluir que ha sido de calidad y ha cumplido con los estándares 	esperados. La integración del código se ha llevado a cabo de manera frecuente, lo que ha permitido detectar posibles errores con 	suficiente tiempo para solucionarlos.
+
+	Además, la ejecución de pruebas ha sido efectiva y el tiempo de ejecución ha sido óptimo.
+	Por último, la gestión de errores ha sido adecuada, proporcionando reportes claros y permitiendo la rápida corrección de incidencias. 	
 
