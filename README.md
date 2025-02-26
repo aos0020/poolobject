@@ -61,7 +61,8 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 ### 2. ¿Tiene calidad el conjunto de pruebas disponibles?
 	Según Codecov tenemos una cobertura de código superior al ..... sobre reusablePool.java
 	Podemos ver en la imagen clases que no estan probadas.
-	
+
+ (SUBIR CAPTURA DE CODECOV)
 	
 
 ### 3. ¿Cuál es el esfuerzo invertido en realizar la actividad?
@@ -73,7 +74,10 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 
 	En la clase ReusablePoolTest , objeto de esta práctica , no se han encontrado errores. Sin embargo en la clase Client.java 
 	podemos apreciar errores como vemos en jacoco.
-	
+ 
+(SUBIR ÚLTIMA CAPTURA)
+ ![image](https://github.com/user-attachments/assets/16b527e6-c42d-490d-9061-566aa941534e)
+
 
 ### 5. ¿El proceso de integración continua realizado ha sido de calidad?
 
