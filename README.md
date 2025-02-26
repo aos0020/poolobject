@@ -8,8 +8,6 @@ Workshop to use good practices in software development: testing, ci and measurem
 
 Authors:
 - Ángel Ortiz de Lejarazu Sánchez : aos0020@alu.ubu.es
-- Carlos Lopez Nozal
-- Jesus Alonso Abad
 - Mario Marcilla Moreno : mmm1058@alu.ubu.es
 - Santiago Peris Bartual: spb1007@alu.ubu.es
 - Jose Carlos Chico Mena : jcm1020@alu.ubu.es
@@ -52,16 +50,30 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 ## Preguntas
 
 ### 1. ¿Se ha realizado trabajo en equipo?
-	....
+	Si, aunque ha sido muy complicado coordinar reuniones entre los cuatro miembros del equipo. 
+	Hemos hecho sesions de trabajo por Teams, en las que alguna estabamos todos los componentes y en otra menos. 
+	Nos hemos repartido el trabajo por un grupo de Tems.
+	
+	->	Imagen kpi de GitHub en informe.
+	
+	
 
 ### 2. ¿Tiene calidad el conjunto de pruebas disponibles?
-	....
+	Según Codecov tenemos una cobertura de código superior al ..... sobre reusablePool.java
+	Podemos ver en la imagen clases que no estan probadas.
+	
+	
 
 ### 3. ¿Cuál es el esfuerzo invertido en realizar la actividad?
-	....
+	Cada participante ha invertido en el estudio de los videos aportados por el profesor y ejecución de la práctica 
+	aproximadamente 4 h.
+	
 
 ### 4. ¿Cuál es el número de fallos encontrados en el código original?
-	.....
+
+	En la clase ReusablePoolTest , objeto de esta práctica , no se han encontrado errores. Sin embargo en la clase Client.java 
+	podemos apreciar errores como vemos en jacoco.
+	
 
 ### 5. ¿El proceso de integración continua realizado ha sido de calidad?
 
