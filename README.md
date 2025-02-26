@@ -59,7 +59,7 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 	
 
 ### 2. ¿Tiene calidad el conjunto de pruebas disponibles?
-	Según Codecov tenemos una cobertura de código superior al ..... sobre reusablePool.java
+	Según Codecov tenemos una cobertura de código igual al 100% sobre la libreria reusablePool.java
 	Podemos ver en la imagen clases que no estan probadas.
 
  (SUBIR CAPTURA DE CODECOV)
