@@ -75,8 +75,7 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 	En la clase ReusablePoolTest , objeto de esta práctica , no se han encontrado errores. Sin embargo en la clase Client.java 
 	podemos apreciar errores como vemos en jacoco.
  
-(SUBIR ÚLTIMA CAPTURA)
- ![image](https://github.com/user-attachments/assets/16b527e6-c42d-490d-9061-566aa941534e)
+![image](https://github.com/user-attachments/assets/e9760df0-9c75-4c3f-b03f-8cd7715300c0)
 
 
 ### 5. ¿El proceso de integración continua realizado ha sido de calidad?
