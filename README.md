@@ -52,7 +52,7 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 ### 1. ¿Se ha realizado trabajo en equipo?
 	Si, aunque ha sido muy complicado coordinar reuniones entre los cuatro miembros del equipo. 
 	Hemos hecho sesions de trabajo por Teams, en las que alguna estabamos todos los componentes y en otra menos. 
-	Nos hemos repartido el trabajo por un grupo de Tems.
+	Nos hemos repartido el trabajo por un grupo de Teams.
 	
 	->	Imagen kpi de GitHub en informe.
 	
