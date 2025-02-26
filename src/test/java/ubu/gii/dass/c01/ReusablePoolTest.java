@@ -121,7 +121,19 @@ public class ReusablePoolTest {
         @DisplayName("testReleaseReusable")
         @Disabled("Not implemented yet")
 	public void testReleaseReusable() {
-		
+	try {
+		Reusable r1 = pool.acquireReusable();
+		assertNotNull(r1, "El objeto adquirido no debería ser null");
+
+		// Liberar el objeto debería funcionar sin lanzar excepción
+		assertDoesNotThrow(() -> pool.releaseReusable(r1), "Liberar un objeto reutilizable una vez no debe lanzar excepción");
+
+		// Intentar liberar el mismo objeto nuevamente debería lanzar DuplicatedInstanceException
+		assertThrows(DuplicatedInstanceException.class, () -> pool.releaseReusable(r1), "Liberar el mismo objeto dos veces debe lanzar DuplicatedInstanceException");
+
+	} catch (Exception e) {
+		fail("No debería lanzarse una excepción inesperada: " + e.getMessage());
+	}
 	}
 
 }
