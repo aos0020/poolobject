@@ -62,7 +62,10 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 	Según Codecov tenemos una cobertura de código igual al 100% sobre la libreria reusablePool.java
 	Podemos ver en la imagen clases que no estan probadas.
 
- (SUBIR CAPTURA DE CODECOV)
+ ![26Febre 1](https://github.com/user-attachments/assets/20d9e4ae-2daf-48ee-a6b7-8b0790a9aa87)
+ 
+![26Febre 2](https://github.com/user-attachments/assets/5ae2599d-73ec-4e5e-99ef-f9821ed4e7de)
+
 	
 
 ### 3. ¿Cuál es el esfuerzo invertido en realizar la actividad?
