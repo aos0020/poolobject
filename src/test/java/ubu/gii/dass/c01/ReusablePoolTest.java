@@ -119,7 +119,6 @@ public class ReusablePoolTest {
 	 */
 	@Test
         @DisplayName("testReleaseReusable")
-        @Disabled("Not implemented yet")
 	public void testReleaseReusable() {
 	try {
 		Reusable r1 = pool.acquireReusable();
