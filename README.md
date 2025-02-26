@@ -54,7 +54,8 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 	Hemos hecho reuniones de trabajo por Teams, en las que alguna estabamos todos los componentes y en otra no todos, pero siempre informabamos a todos de los cambio o de lo que ibamos a hacer. 
 	Nos hemos repartido el trabajo por un grupo creado en la plataforma Teams.
 	
-	->	Imagen kpi de GitHub en informe.
+	![image](https://github.com/user-attachments/assets/a62136ba-c39b-4632-a011-a7b73a8457be)
+
 	
 	
 
