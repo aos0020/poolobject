@@ -88,7 +88,7 @@ test.java.ubu.gii.dass.c01.ReuseblePoolTest.java.
 
 ### 5. ¿El proceso de integración continua realizado ha sido de calidad?
 
-	Tras analizar el proceso de integración continua realizado, podemos concluir que ha sido de calidad y ha cumplido con los estándares 	esperados. La integración del código se ha llevado a cabo de manera frecuente, lo que ha permitido detectar posibles errores con 	suficiente tiempo para solucionarlos.
+	Tras analizar el proceso de integración continua realizado, podemos concluir que ha sido de calidad y ha cumplido con los estándares esperados. La integración del código se ha 	llevado a cabo de manera frecuente, lo que ha permitido detectar posibles errores con uficiente tiempo para solucionarlos.
 
 	Además, la ejecución de pruebas ha sido efectiva y el tiempo de ejecución ha sido óptimo.
 	Por último, la gestión de errores ha sido adecuada, proporcionando reportes claros y permitiendo la rápida corrección de incidencias. 	
